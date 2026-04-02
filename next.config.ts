@@ -14,9 +14,6 @@ const withPWA = require("@ducanh2912/next-pwa").default({
 
 // 2. Konfigurasi Utama Next.js
 const nextConfig: NextConfig = {
-  // MATIKAN MINIFY: Mencegah error kompresi kode di browser lama
-  swcMinify: false,
-
   // TERJEMAHKAN LIBRARY: Paksa library modern diterjemahkan ke JavaScript standar
   transpilePackages: [
     "framer-motion",
